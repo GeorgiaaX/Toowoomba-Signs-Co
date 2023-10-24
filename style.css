@@ -19,6 +19,14 @@ nav > li {
     list-style: none;
 }
 
+nav > a {
+    font-size: 2rem !important;
+}
+
+.nav-link {
+    font-size: 1.3rem !important;
+}
+
 
 
 .hero-section {
