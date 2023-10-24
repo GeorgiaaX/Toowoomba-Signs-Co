@@ -24,7 +24,20 @@ nav > a {
 }
 
 .nav-link {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
+}
+
+.navbar .dropdown-menu {
+    background-color: #0c131f;
+}
+
+.navbar .dropdown-item {
+    color: white;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #0c131f;
+    color: #0C8CE9;
 }
 
 
