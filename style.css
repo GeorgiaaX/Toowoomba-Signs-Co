@@ -261,6 +261,20 @@ body {
 
 
 
+/* Modal */
+
+.modal {
+    color: #0c131f;
+}
+
+.modal h4{
+    color: #0C8CE9;
+    font-weight: 400;
+}
+
+
+
+
 
 /* footer */
 
