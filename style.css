@@ -219,8 +219,8 @@ body {
 }
 
 
-/* 
-.products:before,
+/* div for transition effect */
+/* .products:before,
 .products:after {
     position: absolute;
     top: 0;
@@ -256,9 +256,8 @@ body {
 .products-slide span {
     height: 50px;
     margin: 0 40px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
-
 
 
 
@@ -290,17 +289,29 @@ footer i.fas, footer i.fab {
 
 
 
-/* .get-quote-btn {
+/* mobile quote button */
+
+.get-quote-btn {
     display: none; 
     position: fixed;  
-    bottom: 10px;  
-    left: 50%;  
-    transform: translateX(-50%);  
+    bottom: 0;  
+    left: 0;  
+    transform: none;  
     z-index: 999; 
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    height: 3rem;
 }
 
 @media (max-width: 767px) {  
     .get-quote-btn {
         display: block;
     }
-} */
+    .hero-section {
+        height: 80vh;
+    }
+    .products {
+        padding-top: 2rem;
+    }
+}
