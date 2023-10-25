@@ -263,7 +263,7 @@ body {
 
 
 footer h6 {
-    font-size: 1.1em; /* Adjust subheader font size */
+    font-size: 1.1em;
 }
 
 
@@ -275,6 +275,6 @@ footer i.fas, footer i.fab {
 
 .container.text-center.text-md-start {
     display: flex;
-    flex-wrap: wrap; /* This ensures the columns will wrap on smaller screens */
+    flex-wrap: wrap; 
     justify-content: space-around;
 }
