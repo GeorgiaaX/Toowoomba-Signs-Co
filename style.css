@@ -375,6 +375,18 @@ footer i.fas, footer i.fab {
     height: 20px;
 }
 
+.contact-form:hover {
+    background-color: rgba(12, 19, 31, 0.5);
+    box-shadow: 6px 6px 5px 0px  rgba(12, 19, 31, 0.3);
+}
+
+.contact-form {
+    max-width: 600px; 
+    margin: 0 auto;  
+    padding: 20px;    
+    font-size: 0.9em;
+}
+
 
 
 /* contact-form for smaller screens */
@@ -418,6 +430,11 @@ footer i.fas, footer i.fab {
     }
 
     /* contact-form */
+    .contact-form {
+        border: 1.5px solid rgb(12, 140, 233);
+        font-size: 1.2rem;
+        border-radius: 8px;  
+    }
 
     .contact-hero-section {
         width:100%;
@@ -443,8 +460,8 @@ footer i.fas, footer i.fab {
     }
 
     .contact-form:hover {
-        background-color: rgba(12, 19, 31, 0.3);
-        box-shadow: 6px 6px 5px 0px  rgba(12, 19, 31, 0.3);
+        background-color: rgba(12, 19, 31, 0.5);
+        box-shadow: 6px 6px 5px 0px  rgba(12, 19, 31, 0.5);
     }
    
     
