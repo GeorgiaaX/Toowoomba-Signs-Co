@@ -44,12 +44,6 @@ body {
     padding: 10px 10px 0px 10px;
 }
 
-
-
-
-
-
-
 .hero-section {
     height: 85vh;
     max-width: 100%;
@@ -297,10 +291,6 @@ body {
 
 /* Contact Page */
 
-.contact-subheading {
-    color: #0C8CE9
-}
-
 .contact-form-label {
     display: block;
     text-align: left !important;
@@ -315,6 +305,17 @@ body {
         width: 100%;
     }
 
+    .contact-form:hover {
+        background-color: rgba(12, 19, 31, 0.5);
+        box-shadow: 6px 6px 5px 0px  rgba(12, 19, 31, 0.3);
+    }
+    
+    .contact-form {
+        max-width: 600px; 
+        margin: 0 auto;  
+        padding: 20px;    
+        font-size: 0.9em;
+    }
 
 /* footer */
 
@@ -375,17 +376,7 @@ footer i.fas, footer i.fab {
     height: 20px;
 }
 
-.contact-form:hover {
-    background-color: rgba(12, 19, 31, 0.5);
-    box-shadow: 6px 6px 5px 0px  rgba(12, 19, 31, 0.3);
-}
 
-.contact-form {
-    max-width: 600px; 
-    margin: 0 auto;  
-    padding: 20px;    
-    font-size: 0.9em;
-}
 
 
 
@@ -397,6 +388,9 @@ footer i.fas, footer i.fab {
     }
     .contact-hero-section {
         height: 90vh;
+    }
+    .contact-heading h1 {
+        margin-top: 50px !important;
     }
 }
 
@@ -481,16 +475,9 @@ footer i.fas, footer i.fab {
         text-align: center;
     }
 
-    .contact-subheading {
-        display: none;
-    }
     .contact-hero-section {
         height: 91vh !important;
         width: 100%;
-    }
-    
-    .subheading {
-        font-size: 1.5rem !important;
     }
 
     .contact-form .form-control {
@@ -501,6 +488,4 @@ footer i.fas, footer i.fab {
     .contact-form-label {
         margin-bottom: 0.3rem;
     }
-
-    
 }
