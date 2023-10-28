@@ -234,7 +234,7 @@ body {
 
 
 /* div for transition effect */
-/* .products:before,
+ /* .products:before,
 .products:after {
     position: absolute;
     top: 0;
@@ -242,9 +242,9 @@ body {
     height: 100%;
     content: "";
     z-index: 2;
-} */
+}  */
 
-
+/* 
 @media (min-width: 767px) {
     .products:before {
         left: 0;
@@ -255,7 +255,7 @@ body {
         right: 0;
         background: linear-gradient(to right, transparent, #0c131f);
     }
-}
+} */
 
 .products-slide {
     display: inline-block;
